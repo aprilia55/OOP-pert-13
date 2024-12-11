@@ -1,0 +1,13 @@
+class ViewMahasiswa:
+    @staticmethod
+    def tampilkan_daftar(daftar_mahasiswa):
+        print("Daftar Mahasiswa:")
+        for m in daftar_mahasiswa:
+            print(m)
+
+    @staticmethod
+    def tampilkan_detail(mahasiswa):
+        if mahasiswa:
+            print(f"Detail Mahasiswa: {mahasiswa}")
+        else:
+            print("Mahasiswa tidak ditemukan.")
